@@ -1,0 +1,50 @@
+*{font-family: 'Lato', sans-serif;
+}
+
+h1{
+text-transform: uppercase;
+color: white ;
+background-color: darkolivegreen;
+text-align: center;
+padding: 20px;
+font-weight: 100;
+font-size: 45px;
+letter-spacing: 1px;
+word-spacing: 4px;
+
+}
+
+h4, h3 {
+    text-transform: uppercase;
+}
+
+a{
+   text-decoration: none; 
+   text-transform: uppercase;
+   color: darkolivegreen;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column{
+   width: 32.33%;
+   float: left;
+
+  }
+  .col {
+    width: 50%;
+    float: left;
+  }
+
+  .col > img {
+    width: 85%;
+    height: 300px;
+  }
+  .column > img {
+    width: 85%;
+    height: 250px;
+  }
